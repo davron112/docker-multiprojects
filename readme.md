@@ -39,7 +39,7 @@ php init
 ```
 ## open project
 
-see: test1.local
+see: test1.local , backend.test1.local, test2.local
 
 All config int .env
 projects nginx: 8080
