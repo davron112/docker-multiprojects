@@ -4,11 +4,10 @@ Docker project: laradock
 First you need install docker
 ```
 apt-get install docker-ce
-```
+
 git clone https://github.com/davron112/docker-multiprojects.git app
 
 
-```
 ## app/laradock
 cd laradock
 
