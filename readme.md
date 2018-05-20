@@ -7,11 +7,13 @@ apt-get install docker-ce
 
 git clone https://github.com/davron112/docker-multiprojects.git app
 
-
+```
 ## app/laradock
+```
 cd laradock
-
+```
 ## env.example in folder laradock
+```
 mv env.example .env
 
 
@@ -23,12 +25,14 @@ add your conf multiprojects path laradock\nginx\sites\
 Your projects path folder: /app/projects or in workspace: var/www
 For example yii2 advanced project
 
-```
+
 ## for control virtualization
+```
 cd laradock
 docker-compose exec workspace bash
-
+```
 ## test new project yii
+```
 cd test1 
 composer create-project --prefer-dist yiisoft/yii2-app-advanced test1
 php init
