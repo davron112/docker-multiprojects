@@ -20,7 +20,7 @@ docker-compose up build nginx mysql workspace phpmyadmin
 ```
 if add your site to nginx ``` docker-compose nginx restart ```
 add your conf multiprojects path laradock\nginx\sites\
-
+Your projects path folder: /app/projects or in workspace: var/www
 For example yii2 advanced project
 
 ```
