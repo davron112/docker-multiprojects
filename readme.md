@@ -1,15 +1,21 @@
 Install docker multiprojects: author Davron Achilov
 Docker project: laradock
+
 First you need install docker
 ```
 apt-get install docker-ce
 ```
+git clone https://github.com/davron112/docker-multiprojects.git app
+
 
 ```
+## app/laradock
+cd laradock
+
+## env.example in folder laradock
 mv env.example .env
 
 
-cd laradock
 docker-compose build nginx mysql workspace phpmyadmin
 docker-compose up build nginx mysql workspace phpmyadmin
 ```
@@ -19,11 +25,15 @@ add your conf multiprojects path laradock\nginx\sites\
 For example yii2 advanced project
 
 ```
+## for control virtualization
 docker-compose exec workspace bash
+
+## test new project yii
 cd test1 
 composer create-project --prefer-dist yiisoft/yii2-app-advanced test1
 php init
 ```
+## open project
 
 see: test1.local
 
