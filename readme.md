@@ -1,5 +1,9 @@
 Install docker multiprojects: author Davron Achilov
 Docker project: laradock
+First you need install docker
+```
+apt-get install docker-ce
+```
 
 ```
 mv env.example .env
