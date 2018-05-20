@@ -1,0 +1,5 @@
+FROM tomcat:jre8-alpine
+
+MAINTAINER N Yoskamtorn <golf.enfc40@gmail.com>
+
+EXPOSE 8080
