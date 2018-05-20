@@ -10,5 +10,5 @@ More document please read on [Laradock](https://github.com/laradock/laradock)
 
 Extra
 -
-* phalcon framework extension on php-fpm 7.0
+* phalcon framework extension on php-fpm 7.1
 * orientDB
