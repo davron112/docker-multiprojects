@@ -25,6 +25,7 @@ For example yii2 advanced project
 
 ```
 ## for control virtualization
+cd laradock
 docker-compose exec workspace bash
 
 ## test new project yii
