@@ -47,7 +47,26 @@ phpmyadmin port: 8980
 Elasticsearch: 9200
 
 ## test configuration mysql
-
+```
 host: mysql
 user: custom
 pass: hSvN2yd99
+```
+## configuration hosts
+
+Add domain for ubuntu
+for example: ```test1.local```
+
+Edit /etc/hosts:
+```
+sudo nano /etc/hosts
+```
+Add an entry of your domain test1.local
+```
+127.0.1.1       localhost
+127.0.1.1       test1.local
+```
+Restart the hostname service:
+```
+sudo service hostname restart
+```
