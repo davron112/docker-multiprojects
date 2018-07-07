@@ -49,7 +49,7 @@ Elasticsearch: 9200
 ## test configuration mysql
 ```
 host: mysql
-user: custom
+user: root
 pass: hSvN2yd99
 ```
 ## configuration hosts
