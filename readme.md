@@ -46,7 +46,7 @@ projects nginx: 8080
 phpmyadmin port: 8980
 Elastiksearch: 9200
 
-#test config mysql
+##test config mysql
 host: mysql
 user: custom
 pass: hSvN2yd99
