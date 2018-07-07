@@ -44,7 +44,7 @@ see: test1.local , backend.test1.local, test2.local
 All config int .env
 projects nginx: 8080
 phpmyadmin port: 8980
-Elastiksearch: 9200
+Elasticsearch: 9200
 
 ## test configuration mysql
 
