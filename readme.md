@@ -70,3 +70,12 @@ Restart the hostname service:
 ```
 sudo service hostname restart
 ```
+and
+Restart docker nginx
+```
+sudo docker-compose restart nginx
+```
+or
+```
+docker-compose restart nginx 
+```
